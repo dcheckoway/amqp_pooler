@@ -1,0 +1,15 @@
+%% -*- mode: erlang -*-
+{application, amqp_pooler,
+ [
+  {description, "Pooler of AMQP Channels and Connections"},
+  {vsn, git},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  %% uncomment if this is an active application
+  %% {mod, { amqp_pooler_app, []}},
+  {env, []}
+ ]}.
+%% vim: set filetype=erlang tabstop=2

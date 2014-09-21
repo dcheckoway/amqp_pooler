@@ -5,6 +5,7 @@ deps
 *.plt
 erl_crash.dump
 ebin
-rel/example_project
+rel/amqp_pooler
 .concrete/DEV_MODE
 .rebar
+deps.plt
